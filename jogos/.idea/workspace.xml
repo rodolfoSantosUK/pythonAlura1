@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d52b741-e94e-4167-b538-adf57e818699" name="Default Changelist" comment="" />
+    <list default="true" id="4d52b741-e94e-4167-b538-adf57e818699" name="Default Changelist" comment="Versao inicial do estudo. Uso de if else">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adivinhacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/adivinhacao.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,5 +90,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="133" width="424" height="491" key="FileChooserDialogImpl" timestamp="1599061346313">
+      <screen x="0" y="27" width="1360" height="697" />
+    </state>
+    <state x="463" y="133" width="424" height="491" key="FileChooserDialogImpl/0.27.1360.697@0.27.1360.697" timestamp="1599061346313" />
   </component>
 </project>
