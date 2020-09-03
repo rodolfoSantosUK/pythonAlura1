@@ -12,12 +12,17 @@ for rodada in range(1,5):
     numero = int(chute)
     print("Voce digitou ", chute)
 
+    if(chute < 1 or chute > 100):
+        print("Você digitar um número entre 1 e 10")
+        continue
+
     acertou  = numero_secreto == numero
     maior = numero > numero_secreto
     menor = numero < numero_secreto
 
     if(acertou):
         print("Você acertou")
+        break
     else:
         if(maior):
             print("Voce errou! Seu chute foi maior que o numero secreto")
@@ -25,3 +30,5 @@ for rodada in range(1,5):
             print("Voce errou! Seu chute foi menor que o numero secreto")
 
     rodada += 1
+
+print("Fim do jogo")
