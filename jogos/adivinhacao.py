@@ -12,7 +12,7 @@ for rodada in range(1,5):
     numero = int(chute)
     print("Voce digitou ", chute)
 
-    if(chute < 1 or chute > 100):
+    if(numero < 1 or numero > 100):
         print("Você digitar um número entre 1 e 10")
         continue
 
